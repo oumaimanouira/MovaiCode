@@ -1,0 +1,253 @@
+.texte{
+    border: 30px;
+    border-style:double;
+    border-color: purple;
+    padding-top: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color:salmon;
+}
+
+.par{
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+}
+
+.par:hover{
+    color:steelblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 8px;
+    border-style: dotted;
+    padding-bottom: 30px;
+
+    font-size:large;
+}
+
+.button{
+    border: 3px;
+    border-color:black;
+    border-style:inset;
+    padding:15px;
+    background-color:tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.button:hover{
+    border:4px;
+    border-style:outset;
+    padding:12px;
+    background-color:rgb(221, 72, 46);
+    font-family:cursive;
+}
+
+.button2{
+    background-color:yellow;
+}
+
+.button2:hover{
+    background-color:brown;
+}
+
+.navbar{
+    background-color: orange;
+    border: 1px;
+    padding:15px;
+}
+
+.badcolours{
+    background-color:plum;
+    color:powderblue;
+}
+
+.fatmarquee{
+    font-family: cursive;
+    font-size: 100px;
+}
+
+@font-face {
+    font-family: 'FontTitle';
+    src: url('celticmd.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FontText';
+    src: url('DJB Chalk It Up.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html {
+      background-color: #353432;
+    font-family: 'FontText';
+  }
+  
+  p {
+      color: #FFFFFF;
+    margin-top: 25px;
+    font-family: 'FontText';
+  }
+  
+  span {
+    color: #BF1617;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  
+  input {
+    font-size: 22px;
+    padding-left: 10px;
+      text-align: left;
+    width: 300px;
+      background-color: #C2CDE5;
+      border-radius: 5px;
+    border: 1px solid #abadb3;
+  }
+  
+  textarea {
+    font-size: 22px;
+    padding-left: 10px;
+      background-color: #C2CDE5;
+      border-radius: 5px;
+      border: 1px solid #abadb3;
+  }
+  
+  form /*mise en forme du formulaire*/
+  {
+      display: flex;
+      flex-direction: column;
+      margin-top: -25px;
+      text-align: center;
+      font-size: 15px;
+      font-family : 'FontText';
+    font-size: 25px;
+      font-weight : bold;
+      color : #292929;
+  }
+  
+  label {
+      color: #FFFFFF;
+    padding-left: 25%;
+    text-align: left;
+      padding-right: 10px;
+  }
+  
+  div {
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .policecaractere2 /*changement de la police de caractere*/
+  {
+      background-color: #363940;
+      margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+      margin-bottom: 0px;
+    font-family : FontTitle;
+      color : #FFFFFF;
+      text-align : center;
+      font-size: 25px;
+      font-weight : bold;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  
+  .policecaractere /*changement de la police de caractere*/
+  {
+      background-color: #363940;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family : FontTitle;
+    font-size: 50px;
+      color : #FFFFFF;
+      text-align : center;
+      font-weight : bold;
+      border-radius: 5px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  
+  .input {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: -3px;
+    align-self: flex-start;
+    padding-left: 25%;
+  }
+  
+  #redimensiondiv /* dimension de la div du formulaire*/
+  {
+      width: 1200px;
+      border: 1px;
+      background-color: #828DA5;
+      border: 15px solid #26C7E5;
+      border-radius: 20px;
+  }
+  
+  #bouton /* mise en forme du bouton*/
+  {
+      text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5px;
+      border: 2px solid #FFFFFF;
+      background-color: #C2CDE5;
+      width:150px;
+      height:40px;
+      color : #292929;
+    font-family: FontText;
+      font-weight : bold;
+      font-size: 20px;
+      border-radius : 10px;
+    margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  #italique {
+      color: #FFFFFF;
+    font-family: FontText;
+    margin-top: 0px;
+      margin-left: -375px;
+      font-size: 0.6em;
+  }
+  
+  #message {
+      min-width: 750px;
+      min-height: 150px;
+    max-width: 750px;
+    max-height: 150px;
+  }
+  
+  #black {
+    margin: 0px;
+    padding: 2px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    background-color: #69EAFF;
+  }
+  
+  #black2 {
+    margin: 0px;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    background-color: #69EAFF;
+  }
+  
+  #errorHandler {
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  
+  input:-moz-placeholder {
+      color: #FFFFFF;
+  }
+  
+  textarea:-moz-placeholder {
+      color: #FFFFFF;
+  }
